@@ -8,7 +8,6 @@ const [isDarkMode, toggleDark] = useState(false)
   // this will be used for the Dark Mode Toggle feature
   const appClass = isDarkMode ? "App dark" : "App light"
   function toggleDarkLight(){
-    console.log(isDarkMode)
     toggleDark(isDarkMode=>!isDarkMode)
   }
 
